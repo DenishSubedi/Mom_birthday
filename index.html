@@ -5,7 +5,7 @@
     <title>Happy Birthday, Mom!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .song {
+        #bgmusic {
             display: none;
         }
 
@@ -168,9 +168,8 @@
 </head>
 
 <body>
-    <audio class="song" controls loop>
-        <source src="hbd.mp3"></source>
-	   Your browser isn't invited for super fun audio time.
+    <audio id="bgmusic" autoplay loop>
+        <source src="hbd.mp3" type="audio/mpeg" autoplay>
     </audio>
     <div class="container">
         <h1>Happy Birthday, Mom!</h1>
